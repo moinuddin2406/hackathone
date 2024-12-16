@@ -57,18 +57,80 @@ const Hero = () => {
         </h2>
       </div>
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 px-4">
-        {[...Array(8)].map((_, index) => (
-          <div key={index} className="flex justify-center">
-            <Image
-              src={`/images/h-${index % 2 === 0 ? 6 : 7}.png`}
-              alt={`product-${index}`}
-              width={300}
-              height={200}
-              className="rounded-md"
-            />
-          </div>
-        ))}
-      </div>
+  <div className="flex justify-center">
+    <Image
+      src="/images/h-6.png"
+      alt="product-1"
+      width={300}
+      height={200}
+      className="rounded-md"
+    />
+  </div>
+  <div className="flex justify-center">
+    <Image
+      src="/images/h-7.png"
+      alt="product-2"
+      width={300}
+      height={200}
+      className="rounded-md"
+    />
+  </div>
+  <div className="flex justify-center">
+    <Image
+      src="/images/h-8.png"
+      alt="product-3"
+      width={300}
+      height={200}
+      className="rounded-md"
+    />
+  </div>
+  <div className="flex justify-center">
+    <Image
+      src="/images/h-9.png"
+      alt="product-4"
+      width={300}
+      height={200}
+      className="rounded-md"
+    />
+  </div>
+  <div className="flex justify-center">
+    <Image
+      src="/images/h-10.png"
+      alt="product-5"
+      width={300}
+      height={200}
+      className="rounded-md"
+    />
+  </div>
+  <div className="flex justify-center">
+    <Image
+      src="/images/h-11.png"
+      alt="product-6"
+      width={300}
+      height={200}
+      className="rounded-md"
+    />
+  </div>
+  <div className="flex justify-center">
+    <Image
+      src="/images/h-12.png"
+      alt="product-7"
+      width={300}
+      height={200}
+      className="rounded-md"
+    />
+  </div>
+  <div className="flex justify-center">
+    <Image
+      src="/images/h-13.png"
+      alt="product-8"
+      width={300}
+      height={200}
+      className="rounded-md"
+    />
+  </div>
+</div>
+
       <div className="text-center my-6">
         <button className="w-[180px] sm:w-[245px] h-[40px] sm:h-[48px] font-Poppins font-semibold text-sm sm:text-base text-[#B88E2F] border border-[#B88E2F] rounded-md hover:bg-[#B88E2F] hover:text-white">
           Show More
@@ -118,6 +180,94 @@ const Hero = () => {
           #FuniroFurniture
         </h2>
       </div>
+
+      <div className="grid grid-cols-5 grid-rows-5 gap-4">
+  {/* Row 1 */}
+  <div className="row-start-1 col-start-1 self-end">
+    <Image
+      src="/images/funiro-1.png"
+      alt="funiro"
+      width={274}
+      height={382}
+      className="rounded-md"
+    />
+  </div>
+  <div className="row-end-2 col-start-2 self-start">
+    <Image
+      src="/images/funiro-2.png"
+      alt="funiro-2"
+      width={451}
+      height={312}
+      className="rounded-md"
+    />
+  </div>
+  <div className="row-start-1 col-start-3 ">
+    <Image
+      src="/images/funiro-3.png"
+      alt="funiro-3"
+      width={295}
+      height={392}
+      className="rounded-md"
+    />
+  </div>
+  <div className="row-start-1 col-start-4 ">
+    <Image
+      src="/images/funiro-4.png"
+      alt="funiro-4"
+      width={290}
+      height={348}
+      className="rounded-md"
+    />
+  </div>
+  <div className="row-start-1 col-start-5 ">
+    <Image
+      src="/images/funiro-5.png"
+      alt="funiro-5"
+      width={425}
+      height={433}
+      className="rounded-md"
+    />
+  </div>
+
+  {/* Row 2 */}
+  <div className="row-start-2 col-end-2">
+    <Image
+      src="/images/funiro-6.png"
+      alt="funiro-6"
+      width={381}
+      height={323}
+      className="rounded-md"
+    />
+  </div>
+  <div className="row-start-2 col-span-1">
+    <Image
+      src="/images/funiro-7.png"
+      alt="funiro-7"
+      width={344}
+      height={242}
+      className="rounded-md"
+    />
+  </div>
+  <div className="row-start-2 col-span-1">
+    <Image
+      src="/images/funiro-8.png"
+      alt="funiro-8"
+      width={178}
+      height={242}
+      className="rounded-md"
+    />
+  </div>
+  <div className="row-start-2 col-span-1">
+    <Image
+      src="/images/funiro-9.png"
+      alt="funiro-9"
+      width={258}
+      height={196}
+      className="rounded-md"
+    />
+  </div>
+</div>
+
     </div>
   )
 }
